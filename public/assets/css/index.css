@@ -1,0 +1,31 @@
+.nav-wrapper {
+    background-color: maroon !important;
+}
+
+.create-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: x-large;
+}
+
+h6 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+p {
+    font-size: medium;
+}
+
+.notBooked {
+    float: left;
+    font-size: 24px;
+}
+
+.booked {
+    float: right;
+    font-size: 24px;
+}

@@ -1,0 +1,43 @@
+<div class="card">
+    <div class="card-header">
+        <h4>{{title}}</h4>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-4">
+                <img src="{{img}}" style="max-width: 100px;">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <h6>Author</h6>
+                    <p class="card-text">{{author}}</p>
+                </div>
+                <div class="row">  
+                    <h6 >Genre</h6>
+                    <p class="card-text">{{genre}}</p>
+                </div>
+                <div class="row">
+                    <h6 >Year</h6>
+                    <p class="card-text">{{year}}</p>
+                </div>
+                <div class="row">  
+                    <h6 >Pages</h6>
+                    <p class="card-text">{{pages}}</p>
+                </div>
+            </div>
+        </div>
+        </br>
+        <div class="row">
+            <div class="col-12">
+                <h6 >Notes</h6>
+                <p class="card-text">{{userNotes}}</p>
+            </div>
+        </div>
+        <a href="/edit/{{id}}" class="btn-warning btn-sm edit" data-id="{{id}}" style="margin-right: 10px;">
+            <span data-id="{{id}}">Edit</span>
+        </a>
+        <button type="button" class="btn-danger btn-sm trash" data-id="{{id}}" data-bookedIt="{{bookedIt}}">
+            <span class="fas fa-book-reader" data-id="{{id}}" data-bookedIt="{{bookedIt}}"> Delete</span>
+        </button>
+    </div>
+</div>
